@@ -2600,7 +2600,7 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
-		position: fixed;
+		position: relative;
 		text-align: right;
 		top: 0;
 		width: 35%;

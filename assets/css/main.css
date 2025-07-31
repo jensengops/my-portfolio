@@ -2620,6 +2620,7 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-attachment: scroll;
 		opacity: 0.3; /* controls background image opacity */
 		z-index: 0;
 	}

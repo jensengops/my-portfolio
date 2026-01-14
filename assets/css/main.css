@@ -2004,6 +2004,7 @@ input, select, textarea {
 	flex-wrap: wrap;          /* allows clean wrapping */
 	gap: 12px;                /* spacing between badges */
 	justify-content: flex-start; /* left aligned, not odd */
+	margin-bottom: 50px;
   }
   
   .skill {
@@ -2068,20 +2069,20 @@ input, select, textarea {
   }
   
   .project-item {
-	margin-bottom: 40px;
+	margin-top: 60px;   /* spacing BEFORE each project */
+  }
+  
+  .project-item:first-child {
+	margin-top: 0;      /* no extra space before first project */
   }
   
   .project-item h3 {
 	font-family: Verdana, sans-serif;
-	margin: 0;
+	margin: 0 0 12px 0;
 	padding-bottom: 8px;
 	border-bottom: 2px solid #000;
 	display: inline-block;
-  }
-
-  .project-title {
-	margin-top: 40px;      /* space ABOVE each title */
-  }
+  }  
 
 /* Icon */
 

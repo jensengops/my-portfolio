@@ -2020,7 +2020,7 @@ input, select, textarea {
 /* Hobby */
 
 .hobbies-section {
-	text-align: center;
+	text-align: left;
   }
   
   .hobbies-grid {
@@ -2068,6 +2068,10 @@ input, select, textarea {
 	padding-bottom: 8px;
 	border-bottom: 2px solid #000;
 	display: inline-block;
+  }
+
+  .project-title {
+	margin-top: 40px;      /* space ABOVE each title */
   }
 
 /* Icon */

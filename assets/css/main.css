@@ -2018,6 +2018,18 @@ input, select, textarea {
   }
 
 /* Hobby */
+
+.hobbies-section {
+	text-align: center;
+  }
+
+  .hobbies-section header.major {
+	text-align: left;
+  }
+  
+  .hobbies-section header.major h2 {
+	margin-left: 0;
+  }
   
   .hobbies-grid {
 	display: grid;

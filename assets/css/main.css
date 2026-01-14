@@ -2018,10 +2018,6 @@ input, select, textarea {
   }
 
 /* Hobby */
-
-.hobbies-section {
-	text-align: left;
-  }
   
   .hobbies-grid {
 	display: grid;
@@ -2056,6 +2052,7 @@ input, select, textarea {
 /* Projects */
 .projects-container {
 	margin-top: 30px;
+	margin-bottom: 60px;
   }
   
   .project-item {

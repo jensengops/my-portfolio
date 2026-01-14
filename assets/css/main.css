@@ -2053,6 +2053,23 @@ input, select, textarea {
 	color: #333;
   }
 
+/* Projects */
+.projects-container {
+	margin-top: 30px;
+  }
+  
+  .project-item {
+	margin-bottom: 40px;
+  }
+  
+  .project-item h3 {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #000;
+	display: inline-block;
+  }
+
 /* Icon */
 
 	.icon {

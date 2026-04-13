@@ -2770,7 +2770,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top center,							center center;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								cover;
+		background-size: auto,								100% 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2779,6 +2779,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		overflow: hidden;
 	}
 
 		#header > * {
@@ -3144,7 +3145,7 @@ input, select, textarea {
 
 	body.is-touch #header {
 		background-attachment: scroll;
-		background-size: auto, cover;
+		background-size: auto, 100% 100%;
 	}
 
 	body.is-touch .poptrox-popup .nav-next,
